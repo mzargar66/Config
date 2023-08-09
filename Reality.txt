@@ -5,4 +5,4 @@ vless://1274d880-3972-44bc-9660-f889248547f5@us.greatmaster.click:8443?type=tcp&
 vless://7902ce20-90c5-4148-9846-8e486a409d5e@us.greatmaster.click:2096?type=tcp&security=reality&fp=firefox&pbk=Xce_Dj8BaeZaZRDfjkhl3LqXIqZfj9iwF_DszGQAfx8&sni=digg.com&sid=d9cac8cb&spx=%2F#%F0%9F%87%BA%F0%9F%87%B8-Admin%203
 vless://4f5ab15f-11b4-4791-9555-4aa38e7db5c3@194.61.120.178:443?encryption=none&security=reality&sni=zula.ir&fp=firefox&pbk=7puEMRjp8SyyjbOdjxiIiDgJA2xLguiOjN2foqKLOkU&sid=c5eeee8d&spx=%2F&type=tcp&headerType=none#%F0%9F%87%B3%F0%9F%87%B1-Admin
 vless://61d212de-c0fe-4a60-a12a-02bc2855dd4d@fn.cinnagen.online:2096?type=tcp&security=reality&fp=firefox&pbk=8bpiNgEz9B1GPAzljC60bJu-pl_xtOJ8M0WDmm6_-zg&sni=forum.xda-developers.com&flow=xtls-rprx-vision&sid=9257d8b1&spx=%2F#%F0%9F%87%AB%F0%9F%87%AE-Admin
-
+vless://492794e5-ca7b-4b6a-982d-0b4ce39adfe0@dual.greatmaster.click:15525?security=reality&sni=zula.ir&fp=firefox&pbk=4rAVqHOagB3sebt7YUmicYh-kxvqWDeO2S7hIRf3KAM&sid=22bb10c6&spx=/&type=tcp&flow=xtls-rprx-vision#Dual-Admin%20D
