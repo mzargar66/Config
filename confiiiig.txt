@@ -1,0 +1,150 @@
+{
+  "dns" : {
+    "hosts" : {
+      "dns.google" : [
+        "2001:4860:4860::8888",
+        "2001:4860:4860::8844"
+      ]
+    },
+    "servers" : [
+      "fakedns",
+      "https:\/\/dns.google\/dns-query"
+    ]
+  },
+  "fakedns" : [
+    {
+      "ipPool" : "198.20.0.0\/15",
+      "poolSize" : 512
+    },
+    {
+      "ipPool" : "fc00::\/64",
+      "poolSize" : 512
+    }
+  ],
+  "inbounds" : [
+    {
+      "listen" : "127.0.0.1",
+      "port" : 1080,
+      "protocol" : "socks",
+      "settings" : {
+        "auth" : "noauth",
+        "udp" : true
+      },
+      "sniffing" : {
+        "destOverride" : [
+          "http",
+          "tls",
+          "quic",
+          "fakedns"
+        ],
+        "enabled" : true,
+        "routeOnly" : true
+      },
+      "tag" : "socks"
+    }
+  ],
+  "log" : {
+    "access" : "",
+    "error" : "",
+    "loglevel" : "warning"
+  },
+  "outbounds" : [
+    {
+      "mux" : {
+        "concurrency" : 8,
+        "enabled" : true
+      },
+      "protocol" : "vless",
+      "settings" : {
+        "vnext" : [
+          {
+            "address" : "discord.gg",
+            "port" : 2096,
+            "users" : [
+              {
+                "encryption" : "none",
+                "flow" : "",
+                "id" : "6774f29a-a749-4ea0-bc87-1a579b307574"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings" : {
+        "network" : "ws",
+        "security" : "tls",
+        "sockopt" : {
+          "dialerProxy" : "fragment",
+          "tcpKeepAliveIdle" : 100,
+          "tcpNoDelay" : true
+        },
+        "tlsSettings" : {
+          "allowInsecure" : false,
+          "alpn" : [
+            "h2",
+            "http\/1.1"
+          ],
+          "fingerprint" : "chrome",
+          "serverName" : "LInk2.FINalzargAr.prO"
+        },
+        "wsSettings" : {
+          "headers" : {
+            "Host" : "LInk2.FINalzargAr.prO"
+          },
+          "path" : "\/mzargar"
+        }
+      },
+      "tag" : "proxy"
+    },
+    {
+      "protocol" : "freedom",
+      "settings" : {
+        "domainStrategy" : "AsIs",
+        "fragment" : {
+          "interval" : "0",
+          "length" : "10-20",
+          "packets" : "tlshello"
+        }
+      },
+      "streamSettings" : {
+        "sockopt" : {
+          "tcpKeepAliveIdle" : 100,
+          "tcpNoDelay" : true
+        }
+      },
+      "tag" : "fragment"
+    },
+    {
+      "protocol" : "freedom",
+      "settings" : {
+
+      },
+      "tag" : "direct"
+    },
+    {
+      "protocol" : "blackhole",
+      "settings" : {
+
+      },
+      "tag" : "block"
+    }
+  ],
+  "remarks" : "IRCF Fragment",
+  "routing" : {
+    "domainStrategy" : "AsIs",
+    "rules" : [
+      {
+        "inboundTag" : [
+          "api"
+        ],
+        "outboundTag" : "api",
+        "type" : "field"
+      },
+      {
+        "outboundTag" : "proxy",
+        "port" : "0-65535",
+        "type" : "field"
+      }
+    ]
+  }
+}
