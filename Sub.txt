@@ -50,5 +50,5 @@ vless://321cc007-bb85-41c9-b686-1f45cf5174e0@172.66.45.9:443?encryption=none&sec
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@www.bankonbasak.com:443?encryption=none&security=tls&sni=carlotta.shoorekeeper.cloudns.org&alpn=h2%2Chttp%2F1.1&fp=random&type=ws&host=carlotta.shoorekeeper.cloudns.org&path=%2Fproxyip%3Dzani.yaemiko.ggff.net#%40Vip_Security%20join%20us%20-%20513
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.26.15.69:2096?encryption=none&security=tls&sni=carlotta.shoorekeeper.cloudns.org&alpn=http%2F1.1&fp=randomized&type=ws&host=carlotta.shoorekeeper.cloudns.org&path=%2Fproxyip%3Dzani.yaemiko.ggff.net#%40Vip_Security%20join%20us%20-%20511
 vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.26.15.69:2096?encryption=none&security=tls&sni=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&host=carlotta.shoorekeeper.cloudns.org&path=%2F#%40Vip_Security%20join%20us%20-%20510
-
+vless://7094df26-af60-41c4-afac-857060d1bab0@jEALoUs-ComPetITioN.sEotOOlSFoRYoU.Co.Uk:80?type=ws&path=/#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20ws%20(tal)
 
