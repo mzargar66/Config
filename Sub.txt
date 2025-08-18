@@ -1,7 +1,7 @@
 vless://289f51ad-dcc2-4d6f-a327-1dcb98778397@[2a01:4f9:c011:63a3::1]:2096?type=tcp&security=none#Working%20v.6-Sub
 vless://5de8d4cd-3bd6-4507-b83a-6a5f39a2097a@65.109.206.16:443?type=tcp&security=none#Working-Sub%202
 vless://6266e46c-7ed8-4b1e-9fc8-a40e24d29065@65.109.206.16:26649?type=kcp&headerType=none&seed=rP1EpBrEEg&security=none#Working%20Kc-Sub%203
-vless://7094df26-af60-41c4-afac-857060d1bab0@jEALoUs-ComPetITioN.sEotOOlSFoRYoU.Co.Uk:80?type=ws&path=/#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20ws%20(tal)
+vless://491e4f76-42f0-43a7-a987-25072a68d5e4@hOPeFUL-APpOintmEnT.SeoTOoLsfoRYOu.Co.uk:80?path=%2F&security=&encryption=none&type=ws#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20ws%20%28tal%29
 vless://3ff3bc41-8b5a-4775-a33b-1c3722ee1492@dl6.downloadnaz.com:14857?encryption=none&security=none&type=tcp&headerType=http&host=speedtest.net#pdj3di7o
 vless://9926ee97-4398-48dd-b263-2863c62f5c41@COnFIDeNt-CLUb.SeoTooLsforYoU.CO.uK:80?path=%2F&security=&encryption=none&type=ws#%F0%9F%87%A9%EF%BF%BD
 vless://111720ac-1928-4a04-b58d-b67dc40535ef@188.114.96.77:2087?type=ws&path=%2F&host=orig.cloudservicezone.store&security=tls&fp=chrome&alpn=h3%2Ch2%2Chttp%2F1.1&allowInsecure=1#WS-Sub%205
@@ -13,6 +13,7 @@ vless://a9652d45-b93b-4178-81a5-29fb45c033b3@51.178.42.187:443?encryption=none&s
 vless://a8b11fe0-51f0-4ae6-a337-78ce42004879@188.166.150.199:443?encryption=none&security=tls&sni=zula.ir&fp=chrome&allowInsecure=1&type=ws&host=188.166.150.199&path=%2Fws#Rayan%20-%20RVP%20-%20UK%20-%20II
 vless://59171a5a-c42c-47be-aaf1-cbaefcc5a07d@104.21.36.57:443?encryption=none&security=tls&sni=sample.fullmargintraders.com&fp=chrome&type=ws&host=sample.fullmargintraders.com&path=%2Fwsv%2F59171a5a-c42c-47be-aaf1-cbaefcc5a07d#Q1
 vless://59171a5a-c42c-47be-aaf1-cbaefcc5a07d@104.21.36.57:443?encryption=none&security=tls&sni=sample.fullmargintraders.com&fp=firefox&type=ws&host=sample.fullmargintraders.com&path=%2Fwsv%2F59171a5a-c42c-47be-aaf1-cbaefcc5a07d#Q2
+
 
 
 
