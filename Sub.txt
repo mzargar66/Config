@@ -14,6 +14,8 @@ vless://a9652d45-b93b-4178-81a5-29fb45c033b3@51.178.42.187:443?encryption=none&s
 vless://a8b11fe0-51f0-4ae6-a337-78ce42004879@188.166.150.199:443?encryption=none&security=tls&sni=zula.ir&fp=chrome&allowInsecure=1&type=ws&host=188.166.150.199&path=%2Fws#Rayan%20-%20RVP%20-%20UK%20-%20II
 vless://59171a5a-c42c-47be-aaf1-cbaefcc5a07d@104.21.36.57:443?encryption=none&security=tls&sni=sample.fullmargintraders.com&fp=chrome&type=ws&host=sample.fullmargintraders.com&path=%2Fwsv%2F59171a5a-c42c-47be-aaf1-cbaefcc5a07d#Q1
 vless://59171a5a-c42c-47be-aaf1-cbaefcc5a07d@104.21.36.57:443?encryption=none&security=tls&sni=sample.fullmargintraders.com&fp=firefox&type=ws&host=sample.fullmargintraders.com&path=%2Fwsv%2F59171a5a-c42c-47be-aaf1-cbaefcc5a07d#Q2
+vless://df649309-e4bd-4285-a211-8220b946f413@45.142.189.71:443?encryption=none&security=none&type=tcp&headerType=none#U1
+
 
 
 
