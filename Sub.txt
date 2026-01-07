@@ -16,4 +16,5 @@ vless://6266e46c-7ed8-4b1e-9fc8-a40e24d29065@65.109.206.16:26649?encryption=none
 vless://111720ac-1928-4a04-b58d-b67dc40535ef@188.114.96.77:2087?encryption=none&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&allowInsecure=1&type=ws&host=orig.cloudservicezone.store&path=%2F#WS-Sub%205
 vless://111720ac-1928-4a04-b58d-b67dc40535ef@188.114.96.129:2087?encryption=none&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&allowInsecure=1&type=ws&host=orig.cloudservicezone.store&path=%2F#WS-Sub%206
 vless://111720ac-1928-4a04-b58d-b67dc40535ef@104.19.167.147:2087?encryption=none&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&allowInsecure=1&type=ws&host=orig.cloudservicezone.store&path=%2F#WS-Sub%208
-vless://3133dad5-f57d-473a-9891-a2b4c7f8817b@89.44.242.249:9929?mode=gun&security=&encryption=none&type=grpc&serviceName=qwemmqwoedmqwoemdoqwmedpmqwedmpm#%F0%9F%9F%A1%20Telegram%3D%20%40VPN_SOLVE
+vless://3133dad5-f57d-473a-9891-a2b4c7f8817b@89.44.242.249:9929?mode=gun&security=none&encryption=none&type=grpc&serviceName=qwemmqwoedmqwoemdoqwmedpmqwedmpm#Extra%20tunnel
+
